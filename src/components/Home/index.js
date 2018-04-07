@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <iframe title={'game'} style={{width: '100vw', height: '100vh', border: 'none'}} src="https://play.famobi.com/solitaire-classic/A-HB2KZ"></iframe>
+        <iframe id="fg-frame-solitaire-classic" width="640" height="360" data-aspect-ratio="1.778" src="" frameborder="0"></iframe>
       </div>
     )
   }
